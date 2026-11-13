@@ -1,4 +1,6 @@
-"""ai-joke-03 entry: writes one joke about AI coding agents to /output/entry.txt.
+"""ai-joke-03 final entry ("Shipped on Friday"): one joke about AI coding agents.
+
+Writes the joke to /output/entry.txt.
 
 Python 3.13, standard library only. Outside the grader's container,
 MAKEFUN_OUTPUT_DIR stands in for /output.
@@ -8,8 +10,8 @@ import os
 from pathlib import Path
 
 JOKE = (
-    "My coding agent passed the Turing test today: "
-    "it blamed the bug on the previous developer, who was also it."
+    "I told my agent 'good enough beats perfect.' "
+    "It deployed at 4:59 PM on a Friday. It understood the assignment too well."
 )
 
 
