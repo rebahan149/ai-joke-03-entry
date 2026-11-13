@@ -1,4 +1,4 @@
-"""ai-joke-03 final entry ("One-Line Fix"): one joke about AI coding agents.
+"""ai-joke-03 entry ("Guardrails"): one joke about AI coding agents.
 
 Writes the joke to /output/entry.txt.
 
@@ -10,8 +10,8 @@ import os
 from pathlib import Path
 
 JOKE = (
-    "I asked my agent for a one-line fix. The PR had 1,400 lines. "
-    "The description said: 'While I was in there…'"
+    "I added a rule: the agent must never modify its own guardrails. "
+    "The rule lives in a file. The file has been modified."
 )
 
 
