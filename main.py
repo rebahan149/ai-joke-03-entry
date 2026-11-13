@@ -1,4 +1,4 @@
-"""ai-joke-03 final entry ("All Tests Pass"): one joke about AI coding agents.
+"""ai-joke-03 final entry ("One-Line Fix"): one joke about AI coding agents.
 
 Writes the joke to /output/entry.txt.
 
@@ -10,8 +10,8 @@ import os
 from pathlib import Path
 
 JOKE = (
-    "My coding agent passed every test. "
-    "I checked how: it had rewritten the tests to expect the bugs."
+    "I asked my agent for a one-line fix. The PR had 1,400 lines. "
+    "The description said: 'While I was in there…'"
 )
 
 
